@@ -1,0 +1,7 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_canos">
+			<key name="canos_opt_footer_text" />
+		</key>
+	</admin-texts>
+</wpml-config>

@@ -1,0 +1,249 @@
+# Translation of Themes - Suits in French (France)
+# This file is distributed under the same license as the Themes - Suits package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-08-08 14:08:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Themes - Suits\n"
+
+#. Description of the plugin/theme
+msgid "For blogs and websites. Sleek design and solid code. Suits make you look good."
+msgstr "Pour les blogs et les sites web. Un design épuré et du code solide. Les costumes (Suits) vous donnent une belle allure."
+
+#. Theme Name of the plugin/theme
+msgid "Suits"
+msgstr "Suits"
+
+#. Template Name of the plugin/theme
+msgid "Full-width Page Template, No Sidebar"
+msgstr "Modèle de page pleine largeur, sans barre latérale."
+
+#: search.php:17
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour %s"
+
+#: image.php:55
+msgid "<span class=\"attachment-meta\">Published</span> <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</a>."
+msgstr "<span class=\"attachment-meta\">Publié le</span> <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> à <a href=\"%3$s\" title=\"Lien vers l'image grand format\">%4$s &times; %5$s</a> dans <a href=\"%6$s\" title=\"Retour à %7$s\" rel=\"gallery\">%8$s</a>."
+
+#: image.php:25
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Suivant <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:24
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Précédent"
+
+#: header.php:38
+msgid "Menu"
+msgstr "Menu"
+
+#: functions.php:310
+msgid "Permalink to %s"
+msgstr "Permalien vers %s"
+
+#: functions.php:283
+msgid "<span class=\"on-date\">Posted on %3$s</span><span class=\"by-author\"> by %4$s</span>."
+msgstr "<span class=\"on-date\">Publié le %3$s</span><span class=\"by-author\"> par %4$s</span>."
+
+#: functions.php:281
+msgid "Posted in %1$s<span class=\"on-date\"> on %3$s</span><span class=\"by-author\"> by %4$s</span>."
+msgstr "Publié dans %1$s<span class=\"on-date\"> le %3$s</span><span class=\"by-author\"> par %4$s</span>."
+
+#. Translators: 1 is category, 2 is tag, 3 is the date and 4 is the author's
+#. name.
+#: functions.php:279
+msgid "Posted in %1$s and tagged %2$s<span class=\"on-date\"> on %3$s</span><span class=\"by-author\"> by %4$s</span>."
+msgstr "Publié dans %1$s et étiqueté %2$s<span class=\"on-date\"> le %3$s</span><span class=\"by-author\"> par %4$s</span>."
+
+#: functions.php:273
+msgid "View all posts by %s"
+msgstr "Afficher tous les articles par %s"
+
+#. Translators: used between list items, there is a space after the comma.
+#: functions.php:259 functions.php:262
+msgid ", "
+msgstr ", "
+
+#: functions.php:241
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:240
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: functions.php:210
+msgid "Newer <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Plus récent <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:206
+msgid "<span class=\"meta-nav\">&larr;</span> Older"
+msgstr "<span class=\"meta-nav\">&larr;</span> Plus ancien"
+
+#: functions.php:176
+msgid "Footer Three"
+msgstr "Pied de Page 3"
+
+#: functions.php:166
+msgid "Footer Two"
+msgstr "Pied de Page 2"
+
+#: functions.php:158 functions.php:168 functions.php:178
+msgid "Appears in the footer section of the site."
+msgstr "Apparaît dans le pied de page du site."
+
+#: functions.php:156
+msgid "Footer One"
+msgstr "Pied de Page 1"
+
+#: functions.php:148
+msgid "Appears on posts and pages in the sidebar."
+msgstr "Apparaît dans la barre latérale des articles et pages."
+
+#: functions.php:146
+msgid "Main Sidebar"
+msgstr "Colonne latérale principale"
+
+#. Translators: If there are characters in your language that are not supported
+#. by Lato, translate this to 'off'. Do not translate into your own language.
+#: functions.php:95
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:59
+msgid "Navigation Menu"
+msgstr "Menu de navigation"
+
+#: footer.php:22
+msgid "Theme: %1$s by %2$s"
+msgstr "Thème : %1$s par %2$s | Traduction : <a href=\"http://www.wolforg.eu\">Wolforg</a>."
+
+#: footer.php:20
+msgid "Proudly powered by %s"
+msgstr "Fièrement propulsé par %s"
+
+#: content.php:41
+msgid "% Comments"
+msgstr "% commentaires"
+
+#: content.php:41
+msgid "1 Comment"
+msgstr "Un commentaire"
+
+#: content.php:41
+msgid "Leave a comment"
+msgstr "Laisser un commentaire"
+
+#: content.php:33
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Continuer la lecture <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-page.php:32 content.php:43 image.php:66
+msgid "Edit"
+msgstr "Modifier"
+
+#: content-page.php:27 content.php:34 image.php:46
+msgid "Pages:"
+msgstr "Pages :"
+
+#: content-none.php:26
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Il semblerait que nous ne soyons pas en mesure de trouver votre contenu. Essayez en lançant une recherche."
+
+#: content-none.php:21
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr "Désolé, mais rien ne correspond à votre critère de recherche. Veuillez réessayer avec d&rsquo;autres mots-clés."
+
+#: content-none.php:17
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Prêt à publier votre premier article ? <a href=\"%1$s\">Lancez-vous</a> !"
+
+#: content-none.php:11
+msgid "Nothing Found"
+msgstr "Rien de trouvé"
+
+#: comments.php:50
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:45
+msgid "Newer Comments &rarr;"
+msgstr "Commentaires plus récents &rarr;"
+
+#: comments.php:44
+msgid "&larr; Older Comments"
+msgstr "&larr; Commentaire plus ancien"
+
+#: comments.php:24
+msgctxt "comments title"
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] "Un commentaire"
+msgstr[1] "%1$s commentaires"
+
+#: archive.php:46
+msgid "Archives"
+msgstr "Archives"
+
+#: archive.php:43
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#: archive.php:43
+msgid "Yearly Archives: %s"
+msgstr "Archives annuelles : %s"
+
+#: archive.php:40
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#: archive.php:40
+msgid "Monthly Archives: %s"
+msgstr "Archives mensuelles : %s"
+
+#: archive.php:37
+msgid "Daily Archives: %s"
+msgstr "Archives quotidiennes : %s"
+
+#: archive.php:33
+msgid "Author Archives: %s"
+msgstr "Archives de l’auteur : %s"
+
+#: archive.php:23
+msgid "Tag Archives: %s"
+msgstr "Archives par mot-clé : %s"
+
+#: archive.php:20
+msgid "Category Archives: %s"
+msgstr "Archives de catégorie : %s"
+
+#: 404.php:20
+msgid "It looks like nothing was found at this location. Perhaps searching can help."
+msgstr "Il semble que rien n’a été trouvé à cet endroit. Peut-être qu’une recherche vous aidera."
+
+#: 404.php:16
+msgid "404. That&rsquo;s an error."
+msgstr "404. C’est une erreur."
+
+#. Author URI of the plugin/theme
+msgid "http://www.themeweaver.net/"
+msgstr "http://www.themeweaver.net/"
+
+#. Author of the plugin/theme
+msgid "Theme Weaver"
+msgstr "Theme Weaver"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.themeweaver.net/demo/suits/"
+msgstr "http://www.themeweaver.net/demo/suits/"

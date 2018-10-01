@@ -1,0 +1,17 @@
+/*!
+Theme Name: Canos Child
+Theme URI: http://www.demo.lollum.com/canos
+Description: Child Theme for Canos.
+Tags: black, white, light, one-column, two-columns, left-sidebar, right-sidebar, full-width-template, responsive-layout, accessibility-ready, custom-colors, custom-menu, featured-images, microformats, post-formats, sticky-post, theme-options, translation-ready
+Author: Lollum
+Author URI: http://www.lollum.com/
+License: The PHP code and integrated HTML are licensed under the General Public
+License (GPL). All other parts, but not limited to the CSS code, images, and design belong to their respective owners.
+License URI: http://www.gnu.org/licenses/gpl-2.0.html - https://help.market.envato.com/hc/en-us/articles/202501064
+Template: canos
+Version: 1.0
+*/
+
+@import url('../canos/style.css');
+
+/* -------- Theme customization starts here -------- */

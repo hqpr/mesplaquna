@@ -1,0 +1,16 @@
+.wrap-boxes .button-primary {
+	margin-top: 10px;
+}
+
+.wrap-boxes input {
+	width: 50%;
+}
+
+.wrap-boxes .desc {
+	color: #555;
+	font-style: italic;
+}
+
+.wrap-boxes textarea {
+	width: 100%;
+}
