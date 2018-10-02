@@ -27,7 +27,7 @@ class WP_Widget_Recent_Comments extends WP_Widget {
 			'description' => __( 'Your site&#8217;s most recent comments.' ),
 			'customize_selective_refresh' => true,
 		);
-		parent::__construct( 'recent-comments', __( 'Recent Comments' ), $widget_ops );
+		parent::__construct( 'recent-comments', __( 'Commentaires récents' ), $widget_ops );
 		$this->alt_option_name = 'widget_recent_comments';
 
 		if ( is_active_widget( false, false, $this->id_base ) || is_customize_preview() ) {
@@ -72,7 +72,7 @@ class WP_Widget_Recent_Comments extends WP_Widget {
 
 		$output = '';
 
-		$title = ( ! empty( $instance['title'] ) ) ? $instance['title'] : __( 'Recent Comments' );
+		$title = ( ! empty( $instance['title'] ) ) ? $instance['title'] : __( 'Commentaires récents' );
 
 		/** This filter is documented in wp-includes/widgets/class-wp-widget-pages.php */
 		$title = apply_filters( 'widget_title', $title, $instance, $this->id_base );

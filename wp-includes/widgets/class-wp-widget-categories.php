@@ -27,7 +27,7 @@ class WP_Widget_Categories extends WP_Widget {
 			'description' => __( 'A list or dropdown of categories.' ),
 			'customize_selective_refresh' => true,
 		);
-		parent::__construct( 'categories', __( 'Categories' ), $widget_ops );
+		parent::__construct( 'categories', __( 'Catégories' ), $widget_ops );
 	}
 
 	/**
@@ -44,7 +44,7 @@ class WP_Widget_Categories extends WP_Widget {
 	public function widget( $args, $instance ) {
 		static $first_dropdown = true;
 
-		$title = ! empty( $instance['title'] ) ? $instance['title'] : __( 'Categories' );
+		$title = ! empty( $instance['title'] ) ? $instance['title'] : __( 'Catégories' );
 
 		/** This filter is documented in wp-includes/widgets/class-wp-widget-pages.php */
 		$title = apply_filters( 'widget_title', $title, $instance, $this->id_base );

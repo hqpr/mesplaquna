@@ -78,7 +78,7 @@
 		<?php the_excerpt(); ?>
 		<?php if ( get_theme_mod( 'canos_opt_blog_post_excerpt' ) == 'excerpt+more' ) : ?>
 			<p class="more-link-wrap"><a class="more-link" href="<?php echo the_permalink(); ?>"><?php printf(
-				esc_html__( 'Continue reading %s', 'canos' ),
+				esc_html__( 'Continuer la lecture %s', 'canos' ),
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			); ?></a></p>
 		<?php endif; ?>
@@ -90,7 +90,7 @@
 		<?php
 			/* translators: %s: Name of current post */
 			the_content( sprintf(
-				esc_html__( 'Continue reading %s', 'canos' ),
+				esc_html__( 'Continuer la lecture %s', 'canos' ),
 				the_title( '<span class="screen-reader-text">"', '"</span>', false )
 			) );
 		?>

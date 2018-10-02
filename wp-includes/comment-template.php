@@ -2238,7 +2238,7 @@ function comment_form( $args = array(), $post_id = null ) {
 		/** This filter is documented in wp-includes/link-template.php */
 		'logged_in_as'         => '<p class="logged-in-as">' . sprintf(
 		                              /* translators: 1: edit user link, 2: accessibility text, 3: user name, 4: logout URL */
-		                              __( '<a href="%1$s" aria-label="%2$s">Logged in as %3$s</a>. <a href="%4$s">Log out?</a>' ),
+		                              __( '<a href="%1$s" aria-label="%2$s">Connecté en tant que %3$s</a>. <a href="%4$s">Connectez - Out?</a>' ),
 		                              get_edit_user_link(),
 		                              /* translators: %s: user name */
 		                              esc_attr( sprintf( __( 'Logged in as %s. Edit your profile.' ), $user_identity ) ),

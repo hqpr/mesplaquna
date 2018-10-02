@@ -27,7 +27,7 @@ class WP_Widget_Archives extends WP_Widget {
 			'description' => __( 'A monthly archive of your site&#8217;s Posts.' ),
 			'customize_selective_refresh' => true,
 		);
-		parent::__construct('archives', __('Archives'), $widget_ops);
+		parent::__construct('archives', __('LES ARCHIVES'), $widget_ops);
 	}
 
 	/**
@@ -40,7 +40,7 @@ class WP_Widget_Archives extends WP_Widget {
 	 * @param array $instance Settings for the current Archives widget instance.
 	 */
 	public function widget( $args, $instance ) {
-		$title = ! empty( $instance['title'] ) ? $instance['title'] : __( 'Archives' );
+		$title = ! empty( $instance['title'] ) ? $instance['title'] : __( 'LES ARCHIVES' );
 
 		/** This filter is documented in wp-includes/widgets/class-wp-widget-pages.php */
 		$title = apply_filters( 'widget_title', $title, $instance, $this->id_base );

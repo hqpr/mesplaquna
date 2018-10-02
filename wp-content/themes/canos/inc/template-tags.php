@@ -145,8 +145,8 @@ if ( ! function_exists( 'canos_post_nav' ) ) :
 			<h3 class="screen-reader-text"><?php _e( 'Post navigation', 'canos' ); ?></h3>
 			<div class="nav-links">
 				<?php
-					previous_post_link( '<div class="nav-previous nav-post">%link</div>', '<span class="meta-nav">' . esc_html__( 'Previous story', 'canos' ) . '</span>' );
-					next_post_link( '<div class="nav-next nav-post">%link</div>', '<span class="meta-nav">' . esc_html__( 'Next story', 'canos' ) . '</span>' );
+					previous_post_link( '<div class="nav-previous nav-post">%link</div>', '<span class="meta-nav">' . esc_html__( 'Histoire précédente', 'canos' ) . '</span>' );
+					next_post_link( '<div class="nav-next nav-post">%link</div>', '<span class="meta-nav">' . esc_html__( 'Histoire suivante', 'canos' ) . '</span>' );
 				?>
 			</div><!-- .nav-links -->
 		</nav><!-- .navigation -->
@@ -348,7 +348,7 @@ if ( ! function_exists( 'canos_post_related' ) ) :
 
 				<aside id="related-posts">
 
-					<h3><?php esc_html_e( 'Related posts', 'canos' ); ?></h3>
+					<h3><?php esc_html_e( 'Articles Similaires', 'canos' ); ?></h3>
 
 					<div class="related-posts">
 
@@ -439,7 +439,7 @@ if ( ! function_exists( 'canos_post_comments_count' ) ) :
 	function canos_post_comments_count() {
 		if ( ! post_password_required() && ( comments_open() || get_comments_number() ) ) {
 			echo '<span class="comments-link">';
-			comments_popup_link( esc_html__( 'Leave a comment', 'canos' ), esc_html__( '1 Comment', 'canos' ), esc_html__( '% Comments', 'canos' ) );
+			comments_popup_link( esc_html__( 'Laissez un commentaire', 'canos' ), esc_html__( '1 Commentaire', 'canos' ), esc_html__( '% Commentaires', 'canos' ) );
 			echo '</span>';
 		}
 	}

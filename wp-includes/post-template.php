@@ -267,7 +267,7 @@ function get_the_content( $more_link_text = null, $strip_teaser = false ) {
 			'<span aria-label="%1$s">%2$s</span>',
 			sprintf(
 				/* translators: %s: Name of current post */
-				__( 'Continue reading %s' ),
+				__( 'Continuer la lecture %s' ),
 				the_title_attribute( array( 'echo' => false ) )
 			),
 			__( '(more&hellip;)' )

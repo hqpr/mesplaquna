@@ -1719,7 +1719,7 @@ final class _WP_Editors {
 			<div id="search-panel">
 				<div class="link-search-wrapper">
 					<label>
-						<span class="search-label"><?php _e( 'Search' ); ?></span>
+						<span class="search-label"><?php _e( 'Chercher' ); ?></span>
 						<input type="search" id="wp-link-search" class="link-search-field" autocomplete="off" aria-describedby="wplink-link-existing-content" />
 						<span class="spinner"></span>
 					</label>
