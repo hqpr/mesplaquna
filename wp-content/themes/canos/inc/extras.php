@@ -288,13 +288,13 @@ if ( ! function_exists( 'canos_comment_form_fields' ) ) :
 		$req      = get_option( 'require_name_email' );
 		$aria_req = ( $req ? " aria-required='true'" : '' );
 
-		$fields[ 'author' ] = '<p class="comment-form-author">' . '<label for="author">' . esc_html__( 'Name', 'canos' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
-			            '<input id="author" name="author" type="text" placeholder="' . esc_html__( 'Name', 'canos' ) . ( $req ? ' *' : '' ) . '" value="' . esc_attr( $commenter[ 'comment_author' ] ) . '" size="30"' . $aria_req . ' /></p>';
+		$fields[ 'author' ] = '<p class="comment-form-author">' . '<label for="author">' . esc_html__( 'Prénom', 'canos' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
+			            '<input id="author" name="author" type="text" placeholder="' . esc_html__( 'Prénom', 'canos' ) . ( $req ? ' *' : '' ) . '" value="' . esc_attr( $commenter[ 'comment_author' ] ) . '" size="30"' . $aria_req . ' /></p>';
 
 		$fields[ 'email' ] = '<p class="comment-form-email"><label for="email">' . esc_html__( 'Email', 'canos' ) . ( $req ? ' <span class="required">*</span>' : '' ) . '</label> ' .
 			            '<input id="email" name="email" type="email" placeholder="' . esc_html__( 'Email', 'canos' ) . ( $req ? ' *' : '' ) . '" value="' . esc_attr(  $commenter[ 'comment_author_email' ] ) . '" size="30" aria-describedby="email-notes"' . $aria_req . ' /></p>';
 
-		$fields[ 'url' ] = '<p class="comment-form-url"><label for="url">' . esc_html__( 'Website', 'canos' ) . '</label> ' . '<input id="url" name="url" type="url" placeholder="' . esc_html__( 'Website', 'canos' ) . '" value="' . esc_attr( $commenter[ 'comment_author_url' ] ) . '" size="30" /></p>';
+		$fields[ 'url' ] = '<p class="comment-form-url"><label for="url">' . esc_html__( 'Votre site web', 'canos' ) . '</label> ' . '<input id="url" name="url" type="url" placeholder="' . esc_html__( 'Votre site web', 'canos' ) . '" value="' . esc_attr( $commenter[ 'comment_author_url' ] ) . '" size="30" /></p>';
 
 		return $fields;
 
