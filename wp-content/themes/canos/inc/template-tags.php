@@ -471,7 +471,7 @@ function canos_entry_tags() {
 		$tags_list = get_the_tag_list( '', esc_html__( ', ', 'canos' ) );
 		if ( $tags_list ) {
 			echo '<div class="tags-links">';
-			echo '<span class="tags-links">' . esc_html__( 'Tagged with:', 'canos' ) . '</span>';
+			echo '<span class="tags-links">' . esc_html__( 'Marqué avec:', 'canos' ) . '</span>';
 			echo $tags_list;
 			echo '</div>';
 		}

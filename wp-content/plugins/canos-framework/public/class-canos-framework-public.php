@@ -185,7 +185,7 @@ class Canos_Framework_Public {
 
 		$count = $this->get_post_views( $postID );
 
-		echo '<span class="post-views-count canos-post-' . esc_attr( $postID ) . '">' . sprintf( esc_html__( '%s views', 'canos-framework' ), absint( $count ) ) . '</span>';
+		echo '<span class="post-views-count canos-post-' . esc_attr( $postID ) . '">' . sprintf( esc_html__( '%s vues', 'canos-framework' ), absint( $count ) ) . '</span>';
 
 	}
 
