@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 4.9.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-08-15 06:55:24+0000\n"
+"PO-Revision-Date: 2018-10-11 10:13:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -76,17 +76,17 @@ msgstr "Gutenberg"
 msgid "You can take Gutenberg for a spin (and share your feedback, if you’d like) before we officially release it, by installing it as a plugin."
 msgstr "Je kan Gutenberg proberen (en je feedback geven, als je wilt) alvorens we het officieel uitbrengen door het te installeren als een plugin."
 
-#. translators: Link to https://wordpress.org/gutenberg/
-#: wp-admin/includes/dashboard.php:1723
-msgid "<a href=\"%s\">Learn more about Gutenberg</a>"
-msgstr "<a href=\"%s\">Meer ontdekken over Gutenberg</a>"
-
 #. translators: 1: Gutenberg call for testing handbook link, 2: Gutenberg
 #. GitHub repository issues link, 3: Gutenberg GitHub repository
 #. CONTRIBUTING.md link
 #: wp-admin/includes/dashboard.php:1705
 msgid "You can help by <a href=\"%1$s\">testing</a>, <a href=\"%2$s\">filing bugs</a>, or contributing on the <a href=\"%3$s\">GitHub repository</a>."
 msgstr "Je kunt helpen met <a href=\"%1$s\">testen</a>, <a href=\"%2$s\">bugs melden</a> of bijdragen via de <a href=\"%3$s\">GitHub repository</a>."
+
+#. translators: Link to https://wordpress.org/gutenberg/
+#: wp-admin/includes/dashboard.php:1723
+msgid "<a href=\"%s\">Learn more about Gutenberg</a>"
+msgstr "<a href=\"%s\">Lees meer over Gutenberg</a>"
 
 #: wp-admin/includes/dashboard.php:1669
 msgid "The Classic Editor is activated"
@@ -2201,7 +2201,7 @@ msgstr "Trackbacks zijn een manier om verouderde blogsystemen te informeren dat 
 #. translators: %s: Codex URL
 #: wp-admin/includes/meta-boxes.php:623
 msgid "Excerpts are optional hand-crafted summaries of your content that can be used in your theme. <a href=\"%s\">Learn more about manual excerpts</a>."
-msgstr "Samenvattingen zijn hand-geschreven samenvattingen van je inhoud van je pagina die gebruikt kunnen worden in je thema. <a href=\"%s\">Leer meer over handmatige samenvattingen</a>."
+msgstr "Samenvattingen zijn hand-geschreven samenvattingen van je inhoud van je pagina die gebruikt kunnen worden in je thema. <a href=\"%s\">Lees meer over handmatige samenvattingen</a>."
 
 #: wp-admin/edit-form-advanced.php:378
 msgid "The Text mode allows you to enter HTML along with your post text. Note that &lt;p&gt; and &lt;br&gt; tags are converted to line breaks when switching to the Text editor to make it less cluttered. When you type, a single line break can be used instead of typing &lt;br&gt;, and two line breaks instead of paragraph tags. The line breaks are converted back to tags automatically."
@@ -2401,13 +2401,13 @@ msgstr[1] "Reviews met %1$d sterren: %2$s. Opent in een nieuw scherm."
 msgid "Theme zip file"
 msgstr "Zipbestand van thema"
 
-#: wp-admin/includes/plugin-install.php:359
-msgid "You are using a development version of WordPress. These feature plugins are also under development. <a href=\"%s\">Learn more</a>."
-msgstr "Je maakt gebruik van een ontwikkelversie van WordPress. Deze feature plugins zijn ook in ontwikkeling. <a href=\"%s\">Meer leren</a>."
-
 #: wp-admin/includes/plugin-install.php:627
 msgid "Read all reviews on WordPress.org or write your own!"
 msgstr "Alle reviews over WordPress.org lezen of je eigen review schrijven!"
+
+#: wp-admin/includes/plugin-install.php:359
+msgid "You are using a development version of WordPress. These feature plugins are also under development. <a href=\"%s\">Learn more</a>."
+msgstr "Je maakt gebruik van een ontwikkelversie van WordPress. Deze feature plugins zijn ook in ontwikkeling. <a href=\"%s\">Lees meer</a>."
 
 #: wp-admin/includes/image-edit.php:50
 msgid "Scale Image Help"
@@ -6550,13 +6550,13 @@ msgstr "<strong>Versie %s</strong> lost enkele beveiligingsproblemen op."
 msgid "This screen allows you to choose your permalink structure. You can choose from common settings or create custom URL structures."
 msgstr "Dit scherm stelt je in staat om je permalinkstructuur te kiezen. Je kunt uit de diverse mogelijkheden kiezen of een eigen structuur gebruiken."
 
-#: wp-admin/includes/update-core.php:1302 wp-admin/update-core.php:512
-msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
-msgstr "Welkom bij WordPress %1$s. <a href=\"%2$s\">Meer leren</a>."
-
 #: wp-admin/about.php:382
 msgid "Return to Updates"
 msgstr "Terug naar WordPress bijwerken"
+
+#: wp-admin/includes/update-core.php:1302 wp-admin/update-core.php:512
+msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
+msgstr "Welkom bij WordPress %1$s. <a href=\"%2$s\">Lees meer</a>."
 
 #: wp-admin/edit-tags.php:258
 msgid "Adding Tags"
@@ -6780,7 +6780,7 @@ msgstr "Links kunnen gescheiden worden in linkcategorie&#235;n; deze zijn anders
 
 #: wp-admin/update-core.php:213
 msgid "<a href=\"%s\">Learn more about WordPress %s</a>."
-msgstr "<a href=\"%s\">Meer leren over WordPress %s</a>."
+msgstr "<a href=\"%s\">Lees meer over WordPress %s</a>."
 
 #: wp-admin/edit.php:241
 msgid "Managing Pages"

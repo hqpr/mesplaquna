@@ -1,0 +1,196 @@
+/**
+ * Stylesheet for custom styles.
+ *
+ */
+
+/**
+ * Color override
+ *
+ */
+.secondary-bgcolor,
+.categories-list > a,
+.widget.perfect_magazine_social_widget .social-widget-menu ul a:hover,
+.widget.perfect_magazine_social_widget .social-widget-menu ul a:focus,
+.footer-bottom .social-icons ul li:hover a:after,
+.footer-bottom .social-icons ul li:hover a:after,
+.widget.perfect_magazine_widget_tabbed ul.nav-tabs li:hover a,
+.widget.perfect_magazine_widget_tabbed ul.nav-tabs li:hover a,
+.widget.perfect_magazine_widget_tabbed .nav-tabs > li.active > a,
+.widget.perfect_magazine_widget_tabbed .nav-tabs > li.active > a:focus,
+.widget.perfect_magazine_widget_tabbed .nav-tabs > li.active > a:hover
+.widget.perfect_magazine_widget_tabbed .site-footer .widget ul li,
+.widget .social-widget-menu ul li a,
+.main-navigation .menu > ul > li.current-menu-item > a:after,
+.main-navigation .menu > ul > li:hover > a:after,
+.main-navigation .menu > ul > li:focus > a:after,
+.author-info .author-social > a,
+.search-form .search-submit,
+.ball span,
+.entry-meta.entry-meta-bg span.post-category-label a:hover,
+.entry-meta.entry-meta-bg span.post-category-label a:focus {
+    background: #F44336;
+}
+
+a:hover, a:focus, a:active,
+.post-category-label a:hover,
+.post-category-label a:focus,
+.site-content .widget_recent_comments li a:hover,
+.site-content .widget_recent_comments li a:focus,
+.site-content .widget_pages li a:hover,
+.site-content .widget_pages li a:focus,
+.site-content .social-widget-menu li a:hover,
+.site-content .social-widget-menu li a:focus,
+.site-content .widget_archive li a:hover,
+.site-content .widget_archive li a:focus,
+.site-content .widget_meta li a:hover,
+.site-content .widget_meta li a:focus,
+.site-content .widget_categories li a:hover,
+.site-content .widget_categories li a:focus,
+.site-content .widget_nav_menu li a:hover,
+.site-content .widget_nav_menu li a:focus,
+.site-content .widget_recent_entries li a:hover,
+.site-content .widget_recent_entries li a:focus,
+.tm-carousel-widget .slick-arrow,
+.site-footer a:hover,
+.site-footer a:focus {
+    color: #F44336;
+}
+
+.site-footer .author-info .profile-image {
+    border-color: #F44336;
+}
+
+/**
+ *News Ticker Section
+ *
+ */
+
+.news-ticker {
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.featured-wrapper {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.featured-wrapper-child {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.featured-img-wrapper {
+    width: 100px;
+    padding-right: 15px;
+}
+
+.featured-wrapper .entry-header .entry-title {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.news-ticker .slide-prev,
+.news-ticker .slide-next {
+    color: #333;
+}
+
+.news-ticker .slide-prev {
+    left: -50px;
+}
+
+.news-ticker .slide-next {
+    right: -50px;
+}
+
+.ticker-bg-image {
+    display: inline-block;
+    height: 80px;
+    width: 80px;
+}
+
+.menu-description {
+    background: #f44336;
+    color: #fff;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-left: 5px;
+    letter-spacing: 0;
+    font-size: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+    .site-branding .site-title {
+        font-size: 4.6875em;
+        line-height: 1.0731707317;
+        letter-spacing: -.055em;
+        font-weight: 900;
+        text-transform: uppercase;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .site-branding .site-title {
+        font-size: 7.6875em;
+    }
+}
+
+.site-description {
+    position: relative;
+}
+
+.site-description span {
+    background: #fff;
+    padding: 0 30px;
+}
+
+.site-description:after {
+    content: "";
+    height: 1px;
+    background: #434343;
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    z-index: -1;
+}
+
+.main-banner .slider-aside-item,
+.main-banner .slider-aside-item a {
+    color: #fff;
+}
+
+.main-banner .slider-aside-item {
+    background: #000000;
+}
+
+.main-banner .slider-aside-item:nth-child(even) {
+    background: #333;
+}
+
+.homepage-widgetarea .tm-widget.perfect_magazine_slider_widget {
+    background-color: #333;
+}
+
+@media only screen and (min-width: 1200px) {
+    .homepage-widgetarea .tm-slider-widget .slider-figcaption {
+        margin-top: -35px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .site-description:after {
+        content: none;
+        display: none;
+    }
+
+    .mainbanner-jumbotron .data-bg-slide {
+        margin-bottom: 20px;
+    }
+}
