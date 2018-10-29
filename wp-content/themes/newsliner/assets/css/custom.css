@@ -145,6 +145,8 @@ a:hover, a:focus, a:active,
 .site-description span {
     background: #fff;
     padding: 0 30px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
 }
 
 .site-description:after {

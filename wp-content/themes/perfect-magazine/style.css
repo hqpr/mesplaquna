@@ -271,18 +271,28 @@ textarea {
     color: #3d3e40;
     font-size: 16px;
     line-height: 1.6;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    clear: both;
+h1, h4, h5, h6 {
+    clear: both;Tagged in
     font-weight: 700;
     font-family: 'Playfair Display', serif;
 }
 
 h1 i, h2 i, h3 i, h4 i, h5 i, h6 i {
     font-weight: 400;
+}
+
+h2 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
 p {
@@ -1308,7 +1318,8 @@ a:hover, a:focus, a:active,
 .comment-respond .comment-reply-title,
 .nav-previous a,
 .nav-next a {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700 !important;
 }
 
 body .small-font,
